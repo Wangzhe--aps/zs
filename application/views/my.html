@@ -1,0 +1,197 @@
+<?php $this->load->view('pub/head.html'); ?>
+<body class="no-sidebar">
+    <!-- 大屏欢迎页 -->
+    <div id="header">
+        <!-- Inner -->
+        <div class="inner">
+            <header>
+                <h1><a href="#" id="logo">用户中心</a></h1>
+            </header>
+        </div>
+        <!-- Nav -->
+        <?php $this->load->view('pub/nav.html'); ?>
+    </div>
+    <div>
+            <nav id="sub-nav">
+                <ul class="title-list">
+                    <li class="active">
+                        <a href="#risepro">我的信息</a>
+                    </li>
+                    <li><a href="#donate">已发项目</a>
+                    </li>
+                    <li><a href="#contract">已捐项目</a>
+                    </li>
+                    <li><a href="#about">更改密码</a>
+                    </li>
+                    <li><a href="#contact">消息中心</a>
+                    </li>                </ul>
+            </nav>
+        </div>
+
+<div class="wrapper style1 ">
+        <div class="container">
+            <div class="row product-wrap">
+                <!--               我的信息-->
+                <div class="-1u skel-cell-mainContent product" >
+                    <article id="main" class="special">
+                        <section class="4u" style="padding-top:0;">
+                            <header>
+                                <h3>您已经累计捐助项目 10 个</h3>
+                            </header>
+                            <p>
+                                查看详情
+                            </p>
+                        </section>
+                        <section class="4u">
+                            <header>
+                                <h3>您已经累计关注项目 30 个</h3>
+                            </header>
+                            <p>
+                                查看详情
+                            </p>
+
+                        </section>
+                        <section class="4u">
+                            <header>
+                                <h3>您已经累计捐助 3000.12 元</h3>
+                            </header>
+                            <p>
+                                查看详情
+                            </p>
+                        </section>
+                    </article>
+                    <hr />
+                </div>
+                
+                <!--                已发项目               -->
+                <div class="-1u skel-cell-mainContent product">
+                    <article id="main" class="special">
+                        <section>
+                            <table class="style1">
+                                
+                                <tbody>
+                                   <tr>
+                                       <th>项目名称</th>
+                                       <th>发布日期</th>
+                                       <th>截止日期</th>
+                                       <th>筹资目标</th>
+                                       <th>项目进度</th>
+                                       <th>项目状态</th>
+                                       <th>可用操作</th>
+                                   </tr>
+                                    <tr>
+                                        <td>测试项目</td>
+                                        <td>2012年12月11日</td>
+                                        <td>2014年12月11日</td>
+                                        <td>10000元</td>
+                                        <td>30%</td>
+                                        <td>正在进行中</td>
+                                        <td>查看|编辑</td>
+                                    </tr>
+                                    <tr>
+                                        <td>测试项目</td>
+                                        <td>2012年12月11日</td>
+                                        <td>2014年12月11日</td>
+                                        <td>10000元</td>
+                                        <td>30%</td>
+                                        <td>正在进行中</td>
+                                        <td>查看|编辑</td>
+                                    </tr>
+                                </tbody>
+                                
+                            </table>
+                        </section>
+                    </article>
+                    <hr />
+                </div>
+                
+                <!--                已捐项目               -->
+                <div class="-1u skel-cell-mainContent product">
+                    <article id="main" class="special">
+                        <section>
+                            <table class="style1">
+                                <tbody>
+                                   <tr>
+                                       <th>项目名称</th>
+                                       <th>支持日期</th>
+                                       <th>支持金额</th>
+                                       <th>其他费用</th>
+                                       <th>支付状态</th>
+                                       <th>可用操作</th>
+                                   </tr>
+                                    <tr>
+                                        <td>测试项目</td>
+                                        <td>2014年12月11日</td>
+                                        <td>10000元</td>
+                                        <td>30元</td>
+                                        <td>已付款</td>
+                                        <td>查看|编辑</td>
+                                    </tr>
+                                    <tr>
+                                        <td>测试项目</td>
+                                        <td>2014年12月11日</td>
+                                        <td>10000元</td>
+                                        <td>30元</td>
+                                        <td>未支付</td>
+                                        <td>查看|编辑</td>
+                                    </tr>
+                                </tbody>
+                                
+                            </table>
+                        </section>
+                    </article>
+                    <hr />
+
+                </div>
+                
+                <!--                更改密码  -->
+                <div class="-1u skel-cell-mainContent product">
+                    <article id="main" class="special">
+                          <div class="8u">
+                           <div class="wapper -4u">
+                            <form action="">
+                                <label for="old">原密码</label>
+                                <input type="password" class="text" id="password0" placeholder="请输入正确的原密码" >
+                                <label for="new">新密码</label>
+                                <input type="password" class="text" id="password1" placeholder="请输入6-12位新密码">
+                                <label for="check">确认密码</label>
+                                <input type="password" class="text" id="password1" placeholder="再次输入密码">
+                                <label>提交后便可以使用新密码登录</label>
+                                <input type="submit" class="button" value="提交">
+                            </form>
+                            </div>
+                            </div>
+                           <br class="clear">
+                                               </article>
+                                               <br class="clear">
+                    
+                </div>
+                
+                <!--                消息中心  -->
+                <div class="-1u skel-cell-mainContent product">
+                    <article id="main" class="special">
+                            <header>
+                            <h2><a href="#" id="">尚未记录任何信息</a></h2>
+                            <span class="byline">
+                                        全新的消息中心正在路上
+                                    </span>
+                        </header>
+                    </article>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+<?php $this->load->view('pub/foot.html'); ?>
+<!-- 实现tab跳转 -->
+<script>
+$(function() {
+    //设计案例切换
+    $('.title-list li').mouseover(function() {
+        var liindex = $('.title-list li').index(this);
+        $(this).addClass('active').siblings().removeClass('active');
+        $('.product-wrap div.product').eq(liindex).fadeIn(150).siblings('div.product').hide();
+    });
+    
+});
+</script>
